@@ -208,7 +208,7 @@ transition: transform 0.5s 0.25 ease;
   height: 300px;
   width: 1030px;
   border-style: solid;
-  column-gap: 10px;
+  /* column-gap: 10px; */
   margin-bottom: 5rem;
   display: flex;
   justify-content: center;
@@ -217,14 +217,12 @@ transition: transform 0.5s 0.25 ease;
 /* For margin practice */
 .flag1 {
   background-color: red;
-  padding: 100px;
-  /* TODO */
+  margin: 10px;
 }
 
 .flag2 {
   background-color: blue;
-  padding: 100px;
-  /* TODO */
+  margin: 10px;
 }
 /* For padding practice */
 .padding-container {
