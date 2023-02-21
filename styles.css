@@ -32,6 +32,7 @@ h2 {
 }
 
 .threevert {
+  width: 33.3%
 }
 
 .threehoriz {
@@ -57,6 +58,24 @@ h2 {
 
 /* Colors */
 
+.red-threevert {
+  background-color: #f6343f;
+  width: 100%;
+  height: 33.3%;
+}
+
+.white-threevert {
+  background-color: white;
+  width: 100%;
+  height: 33.3%; 
+}
+
+.light-blue-threevert {
+  background-color: #00a2e1; 
+  width: 100%;
+  height: 33.3%;
+
+}
 /* QUESTION 1 */
 
 .orange {
@@ -91,19 +110,30 @@ h2 {
   background-color: #000;
 }
 
+
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
-  /* TODO */
+  background-color: #B5002D;
+  height: 17%;
+  width: 100%;
 }
 
 .thailand-white {
-  /* TODO */
+  background-color: white;
+  height: 17%; 
+  width: 100%;
 }
 
 .thailand-blue {
-  /* TODO */
+  background-color: #2E2A4C;
+  height: 32%;
+  width: 100%;
 }
+
+/* 
+set width once with .inheritance property and also use multiple classes for same stripe colors but different lines */
+
 
 /* END QUESTION 2 */
 
@@ -111,36 +141,74 @@ h2 {
 
 .romania-blue {
   background-color: #002c84;
+  height: 100%; 
+  width: 33.3%;
 }
 
 .romania-yellow {
-  background-color: #ffcf00;
+  background-color: #ffcf00; 
+  height: 100%; 
+  width: 33.3%;
 }
 
 .romania-red {
+  display: flex;
   background-color: #e10017;
+  height: 100%; 
+  width: 33.3%;
 }
+
+
+/* .romania-yellow {
+  display: flex;
+  align-items: center; 
+  flex-direction: center;
+  justify-content: center;
+  background-color: #ffcf00;
+  height: 100%; 
+  width: 33.3%;
+} */
+
 
 /* END QUESTION 3 */
 
 /* QUESTION 4 */
 .mexico-green {
   background-color: #006341;
+  height: 100%; 
+  width: 33.3%;
+
 }
 
 .mexico-img {
-  /* TODO */
+  max-height: 170px;
+  max-width: 170px;
+  align-self: center;
 }
 
 .mexico-red {
   background-color: #ce1126;
+  height: 100%; 
+  width: 33.3%;
 }
+
+.label {
+color: #be6259;
+transition: transform 0.5s 0.25 ease;
+}
+
+.label:hover {
+  color: red;
+  width: 50px;
+  transform: scale(1.5);
+  }
 
 /* QUESTION 6 */
 .margin-container {
   height: 300px;
   width: 1030px;
   border-style: solid;
+  column-gap: 10px;
   margin-bottom: 5rem;
   display: flex;
   justify-content: center;
@@ -149,11 +217,13 @@ h2 {
 /* For margin practice */
 .flag1 {
   background-color: red;
+  padding: 100px;
   /* TODO */
 }
 
 .flag2 {
   background-color: blue;
+  padding: 100px;
   /* TODO */
 }
 /* For padding practice */
@@ -161,5 +231,10 @@ h2 {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
-  /* TODO */
+  /* padding: 60px; */
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-right: 80px;
+  padding-left: 80px;
+
 }
